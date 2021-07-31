@@ -92,14 +92,6 @@
             clear: both;
             display: table;
         }
-               function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
         
 </style>
     <nav class="topnav" id="myTopnav">
@@ -110,6 +102,16 @@
             <i class="fa fa-bars"></i>
     </nav>
 
+        <script>              
+            function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+        </script>
     <h1 style="margin: 0; text-align: left; background-color:White;
     color:Black; font-family: Arial, Helvetica, sans-serif; text-align:center;  text-decoration: underline;">Welcome to
         the Makaligator Website!
